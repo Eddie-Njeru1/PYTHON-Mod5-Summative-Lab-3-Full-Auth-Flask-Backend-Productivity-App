@@ -23,7 +23,7 @@ def create_app():
     app.register_blueprint(bp) #Registers app routes 
     return app
 
-app = create_app
+app = create_app()
 
 # Start development server 
 if __name__ == '__main__':
