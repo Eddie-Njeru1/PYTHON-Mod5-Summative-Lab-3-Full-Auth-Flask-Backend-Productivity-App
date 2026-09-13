@@ -1,4 +1,4 @@
-# This is the entry point for the backend system.
+# This is the entry point for the entire backend system.
 
 from flask import Flask
 from flask_cors import CORS
